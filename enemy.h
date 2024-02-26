@@ -4,11 +4,19 @@
 
 #ifndef RPG_ENEMY_H
 #define RPG_ENEMY_H
+#include "Player.h"
 #include "character.h"
 
-class enemy:Character{
+
+
+class enemy: Character{
 public:
-    enemy(string name, int health, int attack, int defense) : Character(name, health, attack, defense){}
+    enemy(string name, int health, int attack, int defense);
+
+    void enemyturn(enemy *attack){
+
+                figth(enemy _attack,Player _health);
+        };
 };
 
 #endif //RPG_ENEMY_H

@@ -11,4 +11,7 @@ add_executable(rpg main.cpp
         character.h
         character.h
         enemy.h
+        Player.cpp
+        character.cpp
+        utilsh.h
 )

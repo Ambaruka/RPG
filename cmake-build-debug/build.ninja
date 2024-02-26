@@ -55,6 +55,18 @@ build CMakeFiles/rpg.dir/main.cpp.obj: CXX_COMPILER__rpg_unscanned_Debug C$:/Use
   OBJECT_DIR = CMakeFiles\rpg.dir
   OBJECT_FILE_DIR = CMakeFiles\rpg.dir
 
+build CMakeFiles/rpg.dir/Player.cpp.obj: CXX_COMPILER__rpg_unscanned_Debug C$:/Users/AmbarPC/programación_escuela/orientada_objetos/rpg/Player.cpp || cmake_object_order_depends_target_rpg
+  DEP_FILE = CMakeFiles\rpg.dir\Player.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\rpg.dir
+  OBJECT_FILE_DIR = CMakeFiles\rpg.dir
+
+build CMakeFiles/rpg.dir/character.cpp.obj: CXX_COMPILER__rpg_unscanned_Debug C$:/Users/AmbarPC/programación_escuela/orientada_objetos/rpg/character.cpp || cmake_object_order_depends_target_rpg
+  DEP_FILE = CMakeFiles\rpg.dir\character.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\rpg.dir
+  OBJECT_FILE_DIR = CMakeFiles\rpg.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target rpg
@@ -63,7 +75,7 @@ build CMakeFiles/rpg.dir/main.cpp.obj: CXX_COMPILER__rpg_unscanned_Debug C$:/Use
 #############################################
 # Link the executable rpg.exe
 
-build rpg.exe: CXX_EXECUTABLE_LINKER__rpg_Debug CMakeFiles/rpg.dir/main.cpp.obj
+build rpg.exe: CXX_EXECUTABLE_LINKER__rpg_Debug CMakeFiles/rpg.dir/main.cpp.obj CMakeFiles/rpg.dir/Player.cpp.obj CMakeFiles/rpg.dir/character.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\rpg.dir
